@@ -1,0 +1,4 @@
+{
+  "admin": ["query", "insert", "update", "delete", "index"],
+  "readonly": ["query"]
+}

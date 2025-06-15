@@ -1,0 +1,31 @@
+import { TextDBX } from './TextDBX';
+
+const db = new TextDBX('./config.connect');
+
+// Insert person
+const person = {
+  id: 1,
+  name: 'Jane Doe',
+  age: 32,
+  email: 'jane@example.com'
+};
+db.insert('people', person);
+
+// Query people
+const results = db.queryObject({
+  collection: 'people',
+  filter: { name: 'Jane Doe' }
+});
+console.log('Query result:', results);
+
+// Update entry
+const updated = db.update('people', { name: 'Jane Doe' }, { age: 33 });
+console.log('Updated:', updated);
+
+// Generate index on name
+db.generateIndex('people', 'name');
+
+// Delete entry
+db.delete('people', { name: 'Jane Doe' });
+
+console.log('Example complete.');
