@@ -1,0 +1,5 @@
+{
+    "path": "./Examples",
+    "encryptionKey": "c3VwZXJzZWNyZXRrZXkxMjM0NTY3ODkwYWJjZGVm", // base64 of AES key
+    "user": "admin"
+  }

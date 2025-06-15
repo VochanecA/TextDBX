@@ -1,0 +1,11 @@
+ {
+    "admin": {
+      "role": "admin",
+      "permissions": ["read", "write", "delete"]
+    },
+    "readonly": {
+      "role": "reader",
+      "permissions": ["read"]
+    }
+  }
+
