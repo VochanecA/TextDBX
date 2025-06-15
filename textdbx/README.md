@@ -2,6 +2,15 @@
 
 A lightweight, AES-encrypted, JSON-based database with enhanced error handling and role-based access control.
 
+## 🎯 Why TextDBX?
+
+- **Zero Dependencies**: Unlike heavy databases - no external dependencies or complex installations
+- **Encrypted by Default**: Privacy-first approach with AES-256-CBC encryption built-in
+- **File-based**: Easy backup, version control, and deployment - just copy files
+- **Role-based Security**: Enterprise-ready from day one with granular permissions
+- **JSON Native**: Perfect for modern web apps - no ORM complexity
+- **Serverless Friendly**: No daemon processes needed - works anywhere Node.js runs
+
 ## ✨ Features
 
 - **🔐 Security**: AES-256-CBC encryption with configurable modes
