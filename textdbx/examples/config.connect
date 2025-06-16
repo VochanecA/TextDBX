@@ -2,3 +2,4 @@ database=./MyDB
 encryptionKey=c3VwZXJzZWNyZXRrZXkxMjM0NTY3ODkwYWJjZGVm
 mode=encrypted
 role=admin
+permissions=query,insert,update,delete,create_collection,drop_collection,index,backup,restore
